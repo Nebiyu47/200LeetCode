@@ -2,7 +2,8 @@
 **Graph** 
 
 1.	Number of Connected Components in an Undirected Graph [LeetCode #323]
-	2.	Graph Valid Tree [LeetCode #261]
+	
+2.	Graph Valid Tree [LeetCode #261]
 	3.	Detect Cycle in a Directed Graph [LeetCode #265]
 	4.	The Maze [LeetCode #490]
 	5.	Word Ladder II [LeetCode #126]
