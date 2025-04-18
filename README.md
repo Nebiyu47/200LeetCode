@@ -1,532 +1,306 @@
 # 200LeetCode
 **Graph** 
 
-Number of Connected Components in an Undirected Graph [LeetCode #323] 
+1.	Number of Connected Components in an Undirected Graph [LeetCode #323]
+	2.	Graph Valid Tree [LeetCode #261]
+	3.	Detect Cycle in a Directed Graph [LeetCode #265]
+	4.	The Maze [LeetCode #490]
+	5.	Word Ladder II [LeetCode #126]
+	6.	Pacific Atlantic Water Flow [LeetCode #417]
+	7.	Redundant Connection [LeetCode #684]
+	8.	Alien Dictionary [LeetCode #269]
+	9.	Find the Town Judge [LeetCode #997]
+	10.	Find if Path Exists in Graph [LeetCode #1971]
+	11.	Course Schedule [LeetCode #207]
+	12.	Course Schedule II [LeetCode #210]
+	13.	Max Area of Island [LeetCode #695]
+	14.	Number of Islands [LeetCode #200]
+	15.	Clone Graph [LeetCode #133]
+	16.	Shortest Path in Binary Matrix [LeetCode #1091]
+	17.	Word Ladder [LeetCode #127]
+	18.	Open the Lock [LeetCode #752]
+	19.	Network Delay Time [LeetCode #743]
+	20.	Find Minimum in Rotated Sorted Array [LeetCode #153]
+	21.	Kruskal’s Algorithm (Minimum Spanning Tree) [LeetCode #1554]
+	22.	Minimum Cost to Connect Sticks [LeetCode #1167]
+	23.	Shortest Path Visiting All Nodes [LeetCode #847]
+	24.	Reconstruct Itinerary [LeetCode #332]
+	25.	The Maze II [LeetCode #505]
+	26.	Dijkstra’s Shortest Path Algorithm [LeetCode #1631]
+	27.	Walls and Gates [LeetCode #286]
+	28.	Find the Closest Node to Given Two Nodes [LeetCode #2446]
+	29.	Critical Connections in a Network [LeetCode #1192]
+	30.	Graph Bipartite Check [LeetCode #785]
+
+Breadth-First Search (BFS)
+	31.	Binary Tree Level Order Traversal [LeetCode #102]
+	32.	Word Ladder [LeetCode #127]
+	33.	Clone Graph [LeetCode #133]
+	34.	Number of Islands [LeetCode #200]
+	35.	Course Schedule II [LeetCode #210]
+	36.	Shortest Path in Binary Matrix [LeetCode #1091]
+	37.	Surrounded Regions [LeetCode #130]
+	38.	Max Area of Island [LeetCode #695]
+	39.	Open the Lock [LeetCode #752]
+	40.	Minimum Depth of Binary Tree [LeetCode #111]
+	41.	Maximal Rectangle [LeetCode #85]
+	42.	Zombie In Matrix [LeetCode #542]
+	43.	Shortest Bridge [LeetCode #934]
+	44.	Reachable Nodes in Subdivided Graph [LeetCode #882]
+	45.	All Nodes Distance K in Binary Tree [LeetCode #863]
+	46.	Pacific Atlantic Water Flow [LeetCode #417]
+	47.	Reconstruct Itinerary [LeetCode #332]
+	48.	Find the Minimum Number of Steps to Reach the Target [LeetCode #1219]
+	49.	Minimum Distance to Target [LeetCode #1215]
+	50.	Snake and Ladder [LeetCode #849]
+
+Heap
+	51.	Kth Largest Element in an Array [LeetCode #215]
+	52.	Merge k Sorted Lists [LeetCode #23]
+	53.	Find Median from Data Stream [LeetCode #295]
+	54.	Top K Frequent Words [LeetCode #692]
+	55.	Kth Smallest Element in a Sorted Matrix [LeetCode #378]
+	56.	Sliding Window Maximum [LeetCode #239]
+	57.	Rearrange String k Distance Apart [LeetCode #358]
+	58.	Sort Characters By Frequency [LeetCode #451]
+	59.	Connect Ropes [LeetCode #1167]
+	60.	Last Stone Weight II [LeetCode #1049]
+	61.	K Closest Points to Origin [LeetCode #973]
+	62.	Find K Pairs with Smallest Sums [LeetCode #373]
+	63.	Meeting Rooms II [LeetCode #253]
+	64.	Find the Most Competitive Subsequence [LeetCode #1673]
+	65.	Top K Frequent Elements [LeetCode #347]
+	66.	Max Heap for Sorting [LeetCode #313]
+	67.	Reorganize String [LeetCode #767]
+	68.	Minimum Cost to Merge Intervals [LeetCode #1768]
+	69.	Priority Queue for K Largest [LeetCode #215]
+	70.	Kth Largest Element in a Stream [LeetCode #703]
+
+Dynamic Programming (DP)
+	71.	Longest Increasing Subsequence [LeetCode #300]
+	72.	Coin Change [LeetCode #322]
+	73.	Longest Palindromic Substring [LeetCode #5]
+	74.	Word Break [LeetCode #139]
+	75.	Minimum Path Sum [LeetCode #64]
+	76.	Climbing Stairs [LeetCode #70]
+	77.	Palindrome Partitioning [LeetCode #131]
+	78.	Unique Paths II [LeetCode #63]
+	79.	House Robber II [LeetCode #213]
+	80.	Scramble String [LeetCode #87]
+	81.	Edit Distance [LeetCode #72]
+	82.	Minimum Cost to Paint Houses [LeetCode #265]
+	83.	Partition Equal Subset Sum [LeetCode #416]
+	84.	Maximum Product Subarray [LeetCode #152]
+	85.	Count All Possible Paths [LeetCode #1444]
+	86.	Longest Common Subsequence [LeetCode #1143]
+	87.	House Robber [LeetCode #198]
+	88.	Find All Possible Recipes from Given Supplies [LeetCode #1759]
+	89.	Palindrome Partitioning II [LeetCode #132]
+	90.	Knapsack Problem [LeetCode #416]
+	91.	Best Time to Buy and Sell Stock [LeetCode #121]
+	92.	Longest Valid Parentheses [LeetCode #32]
+	93.	Maximum Subarray [LeetCode #53]
+	94.	Maximum Sum of Non-Adjacent Elements [LeetCode #198]
+	95.	Longest Palindromic Subsequence [LeetCode #516]
+	96.	Target Sum [LeetCode #494]
+	97.	Counting Bits [LeetCode #338]
+	98.	Unique Paths [LeetCode #62]
+	99.	Minimum Jump to Reach End [LeetCode #45]
+	100.	Palindrome Number [LeetCode #9]
+
+Depth-First Search (DFS)
+	101.	Maximal Rectangle [LeetCode #85]
+	102.	Word Search II [LeetCode #212]
+	103.	Combinations [LeetCode #77]
+	104.	Permutations [LeetCode #46]
+	105.	Subsets [LeetCode #78]
+	106.	Palindrome Partitioning [LeetCode #131]
+	107.	Find All Anagrams in a String [LeetCode #438]
+	108.	N-Queens [LeetCode #51]
+	109.	Maximum Path Sum in Binary Tree [LeetCode #124]
+	110.	Sum of Path Numbers [LeetCode #129]
+	111.	Letter Combinations of a Phone Number [LeetCode #17]
+	112.	Sudoku Solver [LeetCode #37]
+	113.	Combination Sum [LeetCode #39]
+	114.	Combination Sum II [LeetCode #40]
+	115.	Graph Cycle Detection [LeetCode #207]
+	116.	Find the Number of Islands [LeetCode #200]
+	117.	Additive Number [LeetCode #306]
+	118.	Find Permutation [LeetCode #526]
+	119.	Regular Expression Matching [LeetCode #10]
+	120.	Flatten Nested List Iterator [LeetCode #341]
+	121.	Find All Paths in Graph [LeetCode #1971]
+	122.	Unique Paths III [LeetCode #980]
+	123.	Count All Paths in a Matrix [LeetCode #934]
+	124.	Is Graph Bipartite? [LeetCode #785]
+	125.	Recursive Backtracking [LeetCode #212]
+	126.	Number of Unique Paths [LeetCode #62]
+	127.	Merge Intervals [LeetCode #56]
+
+Tree
+	128.	Binary Tree Level Order Traversal [LeetCode #102]
+	129.	Maximum Depth of Binary Tree [LeetCode #104]
+	130.	Symmetric Tree [LeetCode #101]
+	131.	Balanced Binary Tree [LeetCode #110]
+	132.	Binary Tree Inorder Traversal [LeetCode #94]
+	133.	Binary Tree Preorder Traversal [LeetCode #144]
+	134.	Binary Tree Postorder Traversal [LeetCode #145]
+	135.	Path Sum II [LeetCode #113]
+	136.	Path Sum III [LeetCode #437]
+	137.	Lowest Common Ancestor of a Binary Search Tree [LeetCode #235]
+	138.	Convert Sorted Array to Binary Search Tree [LeetCode #108]
+	139.	Construct Binary Tree from Preorder and Inorder Traversal [LeetCode #105]
+	140.	Convert Sorted List to Binary Search Tree [LeetCode #109]
+	141.	Maximum Path Sum in Binary Tree [LeetCode #124]
+	142.	Validate Binary Search Tree [LeetCode #98]
+	143.	Serialize and Deserialize Binary Tree [LeetCode #297]
+	144.	Diameter of Binary Tree [LeetCode #543]
+	145.	Sum of Left Leaves [LeetCode #404]
+	146.	Flatten Binary Tree to Linked List [LeetCode #114]
+	147.	Subtree of Another Tree [LeetCode #
+
+147.	Subtree of Another Tree [LeetCode #572]
+	148.	Path Sum [LeetCode #112]
+	149.	Binary Tree Maximum Path Sum [LeetCode #124]
+	150.	Kth Smallest Element in a BST [LeetCode #230]
+	151.	Binary Search Tree Iterator [LeetCode #173]
+	152.	Recover Binary Search Tree [LeetCode #99]
+	153.	Invert Binary Tree [LeetCode #226]
+	154.	Sum of Path Numbers [LeetCode #129]
+	155.	All Nodes Distance K in Binary Tree [LeetCode #863]
+	156.	Binary Search Tree to Greater Sum Tree [LeetCode #1038]
+	157.	Longest Univalue Path [LeetCode #687]
+	158.	Find Duplicate Subtrees [LeetCode #652]
+	159.	Lowest Common Ancestor of a Binary Tree [LeetCode #236]
+	160.	Binary Tree Zigzag Level Order Traversal [LeetCode #103]
+	161.	Count Univalue Subtrees [LeetCode #250]
+	162.	Convert Binary Search Tree to Sorted Doubly Linked List [LeetCode #426]
+
+Trie
+	163.	Implement Trie (Prefix Tree) [LeetCode #208]
+	164.	Add and Search Word - Data Structure Design [LeetCode #211]
+	165.	Word Search II [LeetCode #212]
+	166.	Replace Words [LeetCode #648]
+	167.	Design Add and Search Words Data Structure [LeetCode #211]
+	168.	Stream of Characters [LeetCode #1032]
+	169.	Longest Word in Dictionary through Deleting [LeetCode #524]
+	170.	Prefix and Suffix Search [LeetCode #745]
+	171.	Trie Tree for Searching [LeetCode #208]
+	172.	Word Break II [LeetCode #140]
+
+Additional Graph, BFS, DFS, Tree, Heap Problems
+	173.	Find the Largest Value in Each Tree Row [LeetCode #515]
+	174.	Max Sum of Rectangle No Larger Than K [LeetCode #363]
+	175.	Smallest String Starting From Leaf [LeetCode #988]
+	176.	Binary Tree Right Side View [LeetCode #199]
+	177.	Find Bottom Left Tree Value [LeetCode #513]
+	178.	Binary Tree Tilt [LeetCode #563]
+	179.	Find Mode in Binary Search Tree [LeetCode #501]
+	180.	Serialize and Deserialize Binary Search Tree [LeetCode #449]
+	181.	Path Sum IV [LeetCode #666]
+	182.	Flip Binary Tree To Match Preorder Traversal [LeetCode #951]
+	183.	Nested List Weight Sum [LeetCode #339]
+	184.	Binary Tree Paths [LeetCode #257]
+	185.	Sum of Left Leaves [LeetCode #404]
+	186.	Find the Celebrity [LeetCode #277]
+	187.	Word Search [LeetCode #79]
+	188.	House Robber III [LeetCode #337]
+	189.	Path Sum III [LeetCode #437]
+	190.	Unique Binary Search Trees [LeetCode #96]
+	191.	Unique Binary Search Trees II [LeetCode #95]
+	192.	Search in Rotated Sorted Array [LeetCode #33]
+	193.	Search in Rotated Sorted Array II [LeetCode #81]
+	194.	Count Numbers with Unique Digits [LeetCode #357]
+	195.	Largest Rectangle in Histogram [LeetCode #84]
+	196.	Palindrome Linked List [LeetCode #234]
+	197.	Symmetric Tree [LeetCode #101]
+	198.	Perfect Squares [LeetCode #279]
+
+Graph (Additional Problems)
+	199.	Rotting Oranges [LeetCode #994]
+	200.	Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree [LeetCode #1489]
+
+Linked List
+
+Singly Linked List Basics
+	1.	Reverse Linked List – [LeetCode #206]
+	2.	Remove Nth Node From End of List – [LeetCode #19]
+	3.	Merge Two Sorted Lists – [LeetCode #21]
+	4.	Palindrome Linked List – [LeetCode #234]
+	5.	Delete Node in a Linked List – [LeetCode #237]
+	6.	Middle of the Linked List – [LeetCode #876]
+	7.	Linked List Cycle – [LeetCode #141]
+	8.	Linked List Cycle II – [LeetCode #142]
+	9.	Intersection of Two Linked Lists – [LeetCode #160]
+	10.	Add Two Numbers – [LeetCode #2]
+
+Fast & Slow Pointers
+	11.	Detect Cycle in Linked List – [LeetCode #141]
+	12.	Find the Start of the Cycle – [LeetCode #142]
+	13.	Happy Number – [LeetCode #202]
+	14.	Remove N-th Node from End of List – [LeetCode #19]
+	15.	Middle of the Linked List – [LeetCode #876]
+
+Advanced Linked List
+	16.	Reverse Nodes in k-Group – [LeetCode #25]
+	17.	Rotate List – [LeetCode #61]
+	18.	Swap Nodes in Pairs – [LeetCode #24]
+	19.	Sort List (Merge Sort) – [LeetCode #148]
+	20.	Reorder List – [LeetCode #143]
+	21.	Copy List with Random Pointer – [LeetCode #138]
+	22.	Flatten a Multilevel Doubly Linked List – [LeetCode #430]
+	23.	Remove Duplicates from Sorted List II – [LeetCode #82]
+	24.	Partition List – [LeetCode #86]
+	25.	Odd Even Linked List – [LeetCode #328]
+Stack
+
+Standard Stack Problems
+	30.	Valid Parentheses – [LeetCode #20]
+	31.	Min Stack – [LeetCode #155]
+	32.	Evaluate Reverse Polish Notation – [LeetCode #150]
+	33.	Implement Stack using Queues – [LeetCode #225]
+	34.	Next Greater Element I – [LeetCode #496]
+	35.	Next Greater Element II – [LeetCode #503]
+	36.	Daily Temperatures – [LeetCode #739]
+	37.	Decode String – [LeetCode #394]
+	38.	Basic Calculator II – [LeetCode #227]
+	39.	Largest Rectangle in Histogram – [LeetCode #84]
+	40.	Remove All Adjacent Duplicates In String – [LeetCode #1047]
+	41.	Remove Duplicate Letters – [LeetCode #316]
+	42.	Simplify Path – [LeetCode #71]
+	43.	Design a Stack with Increment Operation – [LeetCode #1381]
+
+⸻
+
+Stack with Min/Max
+	44.	Min Stack – [LeetCode #155]
+	45.	Max Stack – [LeetCode #716]
+
+⸻
+
+Queue
+
+Standard Queue Problems
+	46.	Implement Queue using Stacks – [LeetCode #232]
+	47.	Design Circular Queue – [LeetCode #622]
+	48.	Number of Recent Calls – [LeetCode #933]
+	49.	Moving Average from Data Stream – [LeetCode #346]
+	50.	Dota2 Senate – [LeetCode #649]
+	51.	Time Needed to Buy Tickets – [LeetCode #2073]
+	52.	The Number of Students Unable to Eat Lunch – [LeetCode #1700]
+	53.	Sliding Window Maximum (Deque) – [LeetCode #239]
+	54.	Rotting Oranges (BFS Queue) – [LeetCode #994]
+	55.	Reveal Cards In Increasing Order – [LeetCode #950]
+
+⸻
+
+Priority Queue / Heap Variations
+	56.	Kth Largest Element in a Stream – [LeetCode #703]
+	57.	Find Median from Data Stream – [LeetCode #295]
+	58.	Top K Frequent Elements – [LeetCode #347]
+	59.	Reorganize String – [LeetCode #767]
+	60.	Task Scheduler – [LeetCode #621]
+	61.	Design Twitter – [LeetCode #355]
 
-Graph Valid Tree [LeetCode #261] 
-
-Detect Cycle in a Directed Graph [LeetCode #265] 
-
-The Maze [LeetCode #490] 
-
-Word Ladder II [LeetCode #126] 
-
-Pacific Atlantic Water Flow [LeetCode #417] 
-
-Redundant Connection [LeetCode #684] 
-
-Alien Dictionary [LeetCode #269] 
-
-Find the Town Judge [LeetCode #997] 
-
-Find if Path Exists in Graph [LeetCode #1971] 
-
-Course Schedule [LeetCode #207] 
-
-Course Schedule II [LeetCode #210] 
-
-Max Area of Island [LeetCode #695] 
-
-Number of Islands [LeetCode #200] 
-
-Clone Graph [LeetCode #133] 
-
-Shortest Path in Binary Matrix [LeetCode #1091] 
-
-Word Ladder [LeetCode #127] 
-
-Open the Lock [LeetCode #752] 
-
-Network Delay Time [LeetCode #743] 
-
-Find Minimum in Rotated Sorted Array [LeetCode #153] 
-
-Kruskal's Algorithm (Minimum Spanning Tree) [LeetCode #1554] 
-
-Minimum Cost to Connect Sticks [LeetCode #1167] 
-
-Shortest Path Visiting All Nodes [LeetCode #847] 
-
-Reconstruct Itinerary [LeetCode #332] 
-
-The Maze II [LeetCode #505] 
-
-Dijkstra’s Shortest Path Algorithm [LeetCode #1631] 
-
-Walls and Gates [LeetCode #286] 
-
-Find the Closest Node to Given Two Nodes [LeetCode #2446] 
-
-Critical Connections in a Network [LeetCode #1192] 
-
-Graph Bipartite Check [LeetCode #785] 
-
-Breadth-First Search (BFS) 
-
-Binary Tree Level Order Traversal [LeetCode #102] 
-
-Word Ladder [LeetCode #127] 
-
-Clone Graph [LeetCode #133] 
-
-Number of Islands [LeetCode #200] 
-
-Course Schedule II [LeetCode #210] 
-
-Shortest Path in Binary Matrix [LeetCode #1091] 
-
-Surrounded Regions [LeetCode #130] 
-
-Max Area of Island [LeetCode #695] 
-
-Open the Lock [LeetCode #752] 
-
-Minimum Depth of Binary Tree [LeetCode #111] 
-
-Maximal Rectangle [LeetCode #85] 
-
-Zombie In Matrix [LeetCode #542] 
-
-Shortest Bridge [LeetCode #934] 
-
-Reachable Nodes in Subdivided Graph [LeetCode #882] 
-
-All Nodes Distance K in Binary Tree [LeetCode #863] 
-
-Pacific Atlantic Water Flow [LeetCode #417] 
-
-Reconstruct Itinerary [LeetCode #332] 
-
-Find the Minimum Number of Steps to Reach the Target [LeetCode #1219] 
-
-Minimum Distance to Target [LeetCode #1215] 
-
-Snake and Ladder [LeetCode #849] 
-
-**~~Heap**~~ 
-
-Kth Largest Element in an Array [LeetCode #215] 
-
-Merge k Sorted Lists [LeetCode #23] 
-
-Find Median from Data Stream [LeetCode #295] 
-
-Top K Frequent Words [LeetCode #692] 
-
-Kth Smallest Element in a Sorted Matrix [LeetCode #378] 
-
-Sliding Window Maximum [LeetCode #239] 
-
-Rearrange String k Distance Apart [LeetCode #358] 
-
-Sort Characters By Frequency [LeetCode #451] 
-
-Connect Ropes [LeetCode #1167] 
-
-Last Stone Weight II [LeetCode #1049] 
-
-K Closest Points to Origin [LeetCode #973] 
-
-Find K Pairs with Smallest Sums [LeetCode #373] 
-
-Meeting Rooms II [LeetCode #253] 
-
-Find the Most Competitive Subsequence [LeetCode #1673] 
-
-Top K Frequent Elements [LeetCode #347] 
-
-Max Heap for Sorting [LeetCode #313] 
-
-Reorganize String [LeetCode #767] 
-
-Minimum Cost to Merge Intervals [LeetCode #1768] 
-
-Priority Queue for K Largest [LeetCode #215] 
-
-Kth Largest Element in a Stream [LeetCode #703] 
-
-Dynamic Programming (DP) 
-
-Longest Increasing Subsequence [LeetCode #300] 
-
-Coin Change [LeetCode #322] 
-
-Longest Palindromic Substring [LeetCode #5] 
-
-Word Break [LeetCode #139] 
-
-Minimum Path Sum [LeetCode #64] 
-
-Climbing Stairs [LeetCode #70] 
-
-Palindrome Partitioning [LeetCode #131] 
-
-Unique Paths II [LeetCode #63] 
-
-House Robber II [LeetCode #213] 
-
-Scramble String [LeetCode #87] 
-
-Edit Distance [LeetCode #72] 
-
-Minimum Cost to Paint Houses [LeetCode #265] 
-
-Partition Equal Subset Sum [LeetCode #416] 
-
-Maximum Product Subarray [LeetCode #152] 
-
-Count All Possible Paths [LeetCode #1444] 
-
-Longest Common Subsequence [LeetCode #1143] 
-
-House Robber [LeetCode #198] 
-
-Find All Possible Recipes from Given Supplies [LeetCode #1759] 
-
-Palindrome Partitioning II [LeetCode #132] 
-
-Knapsack Problem [LeetCode #416] 
-
-Best Time to Buy and Sell Stock [LeetCode #121] 
-
-Longest Valid Parentheses [LeetCode #32] 
-
-Maximum Subarray [LeetCode #53] 
-
-Maximum Sum of Non-Adjacent Elements [LeetCode #198] 
-
-Longest Palindromic Subsequence [LeetCode #516] 
-
-Target Sum [LeetCode #494] 
-
-Counting Bits [LeetCode #338] 
-
-Unique Paths [LeetCode #62] 
-
-Minimum Jump to Reach End [LeetCode #45] 
-
-Palindrome Number [LeetCode #9] 
-
-Depth-First Search (DFS) 
-
-Maximal Rectangle [LeetCode #85] 
-
-Word Search II [LeetCode #212] 
-
-Combinations [LeetCode #77] 
-
-Permutations [LeetCode #46] 
-
-Subsets [LeetCode #78] 
-
-Palindrome Partitioning [LeetCode #131] 
-
-Find All Anagrams in a String [LeetCode #438] 
-
-N-Queens [LeetCode #51] 
-
-Maximum Path Sum in Binary Tree [LeetCode #124] 
-
-Sum of Path Numbers [LeetCode #129] 
-
-Letter Combinations of a Phone Number [LeetCode #17] 
-
-Sudoku Solver [LeetCode #37] 
-
-Combination Sum [LeetCode #39] 
-
-Combination Sum II [LeetCode #40] 
-
-Graph Cycle Detection [LeetCode #207] 
-
-Find the Number of Islands [LeetCode #200] 
-
-Additive Number [LeetCode #306] 
-
-Find Permutation [LeetCode #526] 
-
-Regular Expression Matching [LeetCode #10] 
-
-Flatten Nested List Iterator [LeetCode #341] 
-
-Find All Paths in Graph [LeetCode #1971] 
-
-Unique Paths III [LeetCode #980] 
-
-Count All Paths in a Matrix [LeetCode #934] 
-
-Is Graph Bipartite? [LeetCode #785] 
-
-Recursive Backtracking [LeetCode #212] 
-
-Number of Unique Paths [LeetCode #62] 
-
-Merge Intervals [LeetCode #56] 
-
-**~~Tree**~~ 
-
-Binary Tree Level Order Traversal [LeetCode #102] 
-
-Maximum Depth of Binary Tree [LeetCode #104] 
-
-Symmetric Tree [LeetCode #101] 
-
-Balanced Binary Tree [LeetCode #110] 
-
-Binary Tree Inorder Traversal [LeetCode #94] 
-
-Binary Tree Preorder Traversal [LeetCode #144] 
-
-Binary Tree Postorder Traversal [LeetCode #145] 
-
-Path Sum II [LeetCode #113] 
-
-Path Sum III [LeetCode #437] 
-
-Lowest Common Ancestor of a Binary Search Tree [LeetCode #235] 
-
-Convert Sorted Array to Binary Search Tree [LeetCode #108] 
-
-Construct Binary Tree from Preorder and Inorder Traversal [LeetCode #105] 
-
-Convert Sorted List to Binary Search Tree [LeetCode #109] 
-
-Maximum Path Sum in Binary Tree [LeetCode #124] 
-
-Validate Binary Search Tree [LeetCode #98] 
-
-Serialize and Deserialize Binary Tree [LeetCode #297] 
-
-Diameter of Binary Tree [LeetCode #543] 
-
-Sum of Left Leaves [LeetCode #404] 
-
-Flatten Binary Tree to Linked List [LeetCode #114] 
-
-Subtree of Another Tree [LeetCode # 
-
-Subtree of Another Tree [LeetCode #572] 
-
-Path Sum [LeetCode #112] 
-
-Binary Tree Maximum Path Sum [LeetCode #124] 
-
-Kth Smallest Element in a BST [LeetCode #230] 
-
-Binary Search Tree Iterator [LeetCode #173] 
-
-Recover Binary Search Tree [LeetCode #99] 
-
-Invert Binary Tree [LeetCode #226] 
-
-Sum of Path Numbers [LeetCode #129] 
-
-All Nodes Distance K in Binary Tree [LeetCode #863] 
-
-Binary Search Tree to Greater Sum Tree [LeetCode #1038] 
-
-Longest Univalue Path [LeetCode #687] 
-
-Find Duplicate Subtrees [LeetCode #652] 
-
-Lowest Common Ancestor of a Binary Tree [LeetCode #236] 
-
-Binary Tree Zigzag Level Order Traversal [LeetCode #103] 
-
-Count Univalue Subtrees [LeetCode #250] 
-
-Convert Binary Search Tree to Sorted Doubly Linked List [LeetCode #426] 
-
-**~~Trie**~~ 
-
-Implement Trie (Prefix Tree) [LeetCode #208] 
-
-Add and Search Word - Data Structure Design [LeetCode #211] 
-
-Word Search II [LeetCode #212] 
-
-Replace Words [LeetCode #648] 
-
-Design Add and Search Words Data Structure [LeetCode #211] 
-
-Stream of Characters [LeetCode #1032] 
-
-Longest Word in Dictionary through Deleting [LeetCode #524] 
-
-Prefix and Suffix Search [LeetCode #745] 
-
-Trie Tree for Searching [LeetCode #208] 
-
-Word Break II [LeetCode #140] 
-
-Additional Graph, BFS, DFS, Tree, Heap Problems 
-
-Find the Largest Value in Each Tree Row [LeetCode #515] 
-
-Max Sum of Rectangle No Larger Than K [LeetCode #363] 
-
-Smallest String Starting From Leaf [LeetCode #988] 
-
-Binary Tree Right Side View [LeetCode #199] 
-
-Find Bottom Left Tree Value [LeetCode #513] 
-
-Binary Tree Tilt [LeetCode #563] 
-
-Find Mode in Binary Search Tree [LeetCode #501] 
-
-Serialize and Deserialize Binary Search Tree [LeetCode #449] 
-
-Path Sum IV [LeetCode #666] 
-
-Flip Binary Tree To Match Preorder Traversal [LeetCode #951] 
-
-Nested List Weight Sum [LeetCode #339] 
-
-Binary Tree Paths [LeetCode #257] 
-
-Sum of Left Leaves [LeetCode #404] 
-
-Find the Celebrity [LeetCode #277] 
-
-Word Search [LeetCode #79] 
-
-House Robber III [LeetCode #337] 
-
-Path Sum III [LeetCode #437] 
-
-Unique Binary Search Trees [LeetCode #96] 
-
-Unique Binary Search Trees II [LeetCode #95] 
-
-Search in Rotated Sorted Array [LeetCode #33] 
-
-Search in Rotated Sorted Array II [LeetCode #81] 
-
-Count Numbers with Unique Digits [LeetCode #357] 
-
-Largest Rectangle in Histogram [LeetCode #84] 
-
-Palindrome Linked List [LeetCode #234] 
-
-Symmetric Tree [LeetCode #101] 
-
-Perfect Squares [LeetCode #279] 
-
-Singly Linked List Basics 
-
-Reverse Linked List – [LeetCode #206] 
-
-Remove Nth Node From End of List – [LeetCode #19] 
-
-Merge Two Sorted Lists – [LeetCode #21] 
-
-Palindrome Linked List – [LeetCode #234] 
-
-Delete Node in a Linked List – [LeetCode #237] 
-
-Middle of the Linked List – [LeetCode #876] 
-
-Linked List Cycle – [LeetCode #141] 
-
-Linked List Cycle II – [LeetCode #142] 
-
-Intersection of Two Linked Lists – [LeetCode #160] 
-
-Add Two Numbers – [LeetCode #2] 
-
-Fast & Slow Pointers 
-
-Detect Cycle in Linked List – [LeetCode #141] 
-
-Find the Start of the Cycle – [LeetCode #142] 
-
-Happy Number – [LeetCode #202] 
-
-Remove N-th Node from End of List – [LeetCode #19] 
-
-Middle of the Linked List – [LeetCode #876] 
-
-**~~Stack**~~ 
-
-Standard Stack Problems 
-
-Valid Parentheses – [LeetCode #20] 
-
-Min Stack – [LeetCode #155] 
-
-Evaluate Reverse Polish Notation – [LeetCode #150] 
-
-Implement Stack using Queues – [LeetCode #225] 
-
-Next Greater Element I – [LeetCode #496] 
-
-Next Greater Element II – [LeetCode #503] 
-
-Daily Temperatures – [LeetCode #739] 
-
-Decode String – [LeetCode #394] 
-
-Basic Calculator II – [LeetCode #227] 
-
-Largest Rectangle in Histogram – [LeetCode #84] 
-
-Remove All Adjacent Duplicates In String – [LeetCode #1047] 
-
-Remove Duplicate Letters – [LeetCode #316] 
-
-Simplify Path – [LeetCode #71] 
-
-Design a Stack with Increment Operation – [LeetCode #1381] 
-
- 
-
-~~Stack with Min/Max~~ 
-
-Min Stack – [LeetCode #155] 
-
-Max Stack – [LeetCode #716] 
-
- 
-
-**~~Queue**~~ 
-
-Standard Queue Problems 
-
-Implement Queue using Stacks – [LeetCode #232] 
-
-Design Circular Queue – [LeetCode #622] 
-
-Number of Recent Calls – [LeetCode #933] 
-
-Moving Average from Data Stream – [LeetCode #346] 
-
-Dota2 Senate – [LeetCode #649] 
-
-Time Needed to Buy Tickets – [LeetCode #2073] 
-
-The Number of Students Unable to Eat Lunch – [LeetCode #1700] 
-
-Sliding Window Maximum (Deque) – [LeetCode #239] 
-
-Rotting Oranges (BFS Queue) – [LeetCode #994] 
-
-Reveal Cards In Increasing Order – [LeetCode #950] 
-
- 
-
-**~~Priority Queue / Heap Variations**~~ 
-
-Kth Largest Element in a Stream – [LeetCode #703] 
-
-Find Median from Data Stream – [LeetCode #295] 
-
-Top K Frequent Elements – [LeetCode #347] 
-
-Reorganize String – [LeetCode #767] 
-
-Task Scheduler – [LeetCode #621] 
-
-Design Twitter – [LeetCode #355] 
 
  
