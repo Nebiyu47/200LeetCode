@@ -39,8 +39,11 @@
 30.	Graph Bipartite Check [LeetCode #785]
 
 Breadth-First Search (BFS)
+
 31.	Binary Tree Level Order Traversal [LeetCode #102]
+
 32.	Word Ladder [LeetCode #127]
+
 33.	Clone Graph [LeetCode #133]
 34.	Number of Islands [LeetCode #200]
 35.	Course Schedule II [LeetCode #210]
