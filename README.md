@@ -314,8 +314,3 @@
 61. [Design Twitter - #355](https://leetcode.com/problems/design-twitter/)  
 
 ---
-
-### **Final Notes**  
-- Some LeetCode numbers were incorrect (e.g., #1554, #2446). I corrected them to the closest match.  
-- Premium problems are marked (require subscription).  
-- Let me know if you need any clarifications! Happy coding! 🚀
