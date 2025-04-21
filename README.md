@@ -315,23 +315,23 @@
 
 ---
 **String**
-63. https://leetcode.com/problems/longest-substring-without-repeating-characters/
-64. https://leetcode.com/problems/valid-anagram/
-65. https://leetcode.com/problems/group-anagrams/
-66. https://leetcode.com/problems/longest-palindromic-substring/
-67. https://leetcode.com/problems/palindrome-partitioning/
-68. https://leetcode.com/problems/implement-strstr/
-69. https://leetcode.com/problems/reverse-words-in-a-string/
-70. https://leetcode.com/problems/decode-ways/
-71. https://leetcode.com/problems/basic-calculator/
-72. https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
-73. https://leetcode.com/problems/find-all-anagrams-in-a-string/
-74. https://leetcode.com/problems/integer-to-roman/
-75. https://leetcode.com/problems/roman-to-integer/
-76. https://leetcode.com/problems/string-to-integer-atoi/
-78. https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/
-79. https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
-80. https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
-81. https://leetcode.com/problems/longest-common-prefix/
-82. https://leetcode.com/problems/compare-version-numbers/
-83. https://leetcode.com/problems/valid-palindrome/
+63. [Longest Substring Without Repeating Characters - #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+64. [Valid Anagram - #242](https://leetcode.com/problems/valid-anagram/)
+65. [Group Anagrams - #49](https://leetcode.com/problems/group-anagrams/)
+66. [Longest Palindromic Substring - #5](https://leetcode.com/problems/longest-palindromic-substring/)
+67. [Palindrome Partitioning - #131](https://leetcode.com/problems/palindrome-partitioning/)
+68. [Implement strStr() - #28](https://leetcode.com/problems/implement-strstr/)
+69. [Reverse Words in a String - #151](https://leetcode.com/problems/reverse-words-in-a-string/)
+70. [Decode Ways - #91](https://leetcode.com/problems/decode-ways/)
+71. [Basic Calculator - #224](https://leetcode.com/problems/basic-calculator/)
+72. [Minimum Remove to Make Valid Parentheses - #1249](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+73. [Find All Anagrams in a String - #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+74. [Integer to Roman - #12](https://leetcode.com/problems/integer-to-roman/)
+75. [Roman to Integer - #13](https://leetcode.com/problems/roman-to-integer/)
+76. [String to Integer (atoi) - #8](https://leetcode.com/problems/string-to-integer-atoi/)
+78. [Check If a String Contains All Binary Codes of Size K - #1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
+79. [Check If Two String Arrays are Equivalent - #1662](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
+80. [Remove All Adjacent Duplicates In String - #1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+81. [Longest Common Prefix - #14](https://leetcode.com/problems/longest-common-prefix/)
+82. [Compare Version Numbers - #165](https://leetcode.com/problems/compare-version-numbers/)
+83. [Valid Palindrome - #125](https://leetcode.com/problems/valid-palindrome/)  
