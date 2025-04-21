@@ -314,3 +314,24 @@
 61. [Design Twitter - #355](https://leetcode.com/problems/design-twitter/)  
 
 ---
+**String**
+63 https://leetcode.com/problems/longest-substring-without-repeating-characters/
+64 https://leetcode.com/problems/valid-anagram/
+65 https://leetcode.com/problems/group-anagrams/
+66 https://leetcode.com/problems/longest-palindromic-substring/
+67 https://leetcode.com/problems/palindrome-partitioning/
+68 https://leetcode.com/problems/implement-strstr/
+69 https://leetcode.com/problems/reverse-words-in-a-string/
+70 https://leetcode.com/problems/decode-ways/
+71 https://leetcode.com/problems/basic-calculator/
+72 https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+73 https://leetcode.com/problems/find-all-anagrams-in-a-string/
+74 https://leetcode.com/problems/integer-to-roman/
+75 https://leetcode.com/problems/roman-to-integer/
+76 https://leetcode.com/problems/string-to-integer-atoi/
+78 https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/
+79 https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+80 https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+81 https://leetcode.com/problems/longest-common-prefix/
+82 https://leetcode.com/problems/compare-version-numbers/
+83 https://leetcode.com/problems/valid-palindrome/
