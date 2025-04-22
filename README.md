@@ -124,8 +124,7 @@
 103. [Combinations - #77](https://leetcode.com/problems/combinations/)  
 104. [Permutations - #46](https://leetcode.com/problems/permutations/)  
 105. [Subsets - #78](https://leetcode.com/problems/subsets/)  
-106. [Palindrome Partitioning - #131](https://leetcode.com/problems/palindrome-partitioning/)  
-107. [Find All Anagrams in a String - #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) *(Sliding Window)*  
+106. [Palindrome Partitioning - #131](https://leetcode.com/problems/palindrome-partitioning/)
 108. [N-Queens - #51](https://leetcode.com/problems/n-queens/)  
 109. [Binary Tree Maximum Path Sum - #124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  
 110. [Sum Root to Leaf Numbers - #129](https://leetcode.com/problems/sum-root-to-leaf-numbers/)  
@@ -315,6 +314,7 @@
 
 ---
 **String**
+62. [Find All Anagrams in a String - #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) *(Sliding Window)*
 63. [Longest Substring Without Repeating Characters - #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
     
 64. [Valid Anagram - #242](https://leetcode.com/problems/valid-anagram/)
