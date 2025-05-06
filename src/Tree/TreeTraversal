@@ -1,0 +1,134 @@
+These are ways to visit all nodes in a tree systematically:
+
+1. Depth-First Traversals (DFT)
+Pre-order Traversal (NLR)
+→ Visit Node, then Left subtree, then Right
+Example: Root → Left → Right
+
+In-order Traversal (LNR)
+→ Visit Left subtree, then Node, then Right
+(Common in BSTs for sorted order)
+
+Post-order Traversal (LRN)
+→ Visit Left subtree, Right subtree, then Node
+
+2. Breadth-First Traversal (BFT)
+Level Order Traversal
+→ Visit nodes level by level from top to bottom, left to right
+(Uses a queue)
+class TreeNode {
+    int val;
+    TreeNode left, right;
+    TreeNode(int val) {
+        this.val = val;
+    }
+}
+1️⃣ Pre-order Traversal (DFS: Root → Left → Right)
+java
+Copy
+Edit
+public void preorder(TreeNode root, List<Integer> result) {
+    if (root == null) return;
+    result.add(root.val);                 // Visit node
+    preorder(root.left, result);         // Traverse left
+    preorder(root.right, result);        // Traverse right
+}
+2️⃣ In-order Traversal (DFS: Left → Root → Right)
+java
+Copy
+Edit
+public void inorder(TreeNode root, List<Integer> result) {
+    if (root == null) return;
+    inorder(root.left, result);          // Traverse left
+    result.add(root.val);                // Visit node
+    inorder(root.right, result);         // Traverse right
+}
+3️⃣ Post-order Traversal (DFS: Left → Right → Root)
+java
+Copy
+Edit
+public void postorder(TreeNode root, List<Integer> result) {
+    if (root == null) return;
+    postorder(root.left, result);        // Traverse left
+    postorder(root.right, result);       // Traverse right
+    result.add(root.val);                // Visit node
+}
+4️⃣ Level Order Traversal (BFS)
+java
+Copy
+Edit
+public List<Integer> levelOrder(TreeNode root) {
+    List<Integer> result = new ArrayList<>();
+    if (root == null) return result;
+
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+
+    while (!queue.isEmpty()) {
+        TreeNode current = queue.poll();
+        result.add(current.val);
+
+        if (current.left != null) queue.offer(current.left);
+        if (current.right != null) queue.offer(current.right);
+    }
+
+    return result;
+}
+Sample Tree:
+markdown
+Copy
+Edit
+        1
+       / \
+      2   3
+     / \
+    4   5
+    1️⃣ Pre-order Traversal (Root → Left → Right)
+    Function Call: preorder(root, list)
+
+    Output: [1, 2, 4, 5, 3]
+
+    Explanation:
+
+    Visit 1 (root)
+
+    Go to left: 2, then 4, then 5
+
+    Then visit right: 3
+
+    2️⃣ In-order Traversal (Left → Root → Right)
+    Function Call: inorder(root, list)
+
+    Output: [4, 2, 5, 1, 3]
+
+    Explanation:
+
+    Start from leftmost: 4, then parent 2, then 5
+
+    Then root 1, then right child 3
+
+    3️⃣ Post-order Traversal (Left → Right → Root)
+    Function Call: postorder(root, list)
+
+    Output: [4, 5, 2, 3, 1]
+
+    Explanation:
+
+    Finish both children before the parent:
+
+    4, 5 → then 2
+
+    3 → then 1
+
+    4️⃣ Level Order Traversal (Top-down, Left to Right)
+    Function Call: levelOrder(root)
+
+    Output: [1, 2, 3, 4, 5]
+
+    Explanation:
+
+    Level 0: 1
+
+    Level 1: 2, 3
+
+    Level 2: 4, 5
