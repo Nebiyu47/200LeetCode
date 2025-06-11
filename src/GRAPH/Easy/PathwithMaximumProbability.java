@@ -1,4 +1,4 @@
-package GRAPH.Easy.DijkstrasAlgorithm;
+package GRAPH.Easy;
 
 import java.util.ArrayList;
 import java.util.List;
