@@ -142,7 +142,7 @@
 122. [Unique Paths III - #980](https://leetcode.com/problems/unique-paths-iii/)  
 123. [Shortest Bridge - #934](https://leetcode.com/problems/shortest-bridge/) *(BFS/DFS)*  
 124. [Is Graph Bipartite? - #785](https://leetcode.com/problems/is-graph-bipartite/)  
-125. [Word Search II (Backtracking) - #212](https://leetcode.com/problems/word-search-ii/)  
+125. [Word Search II (DFS.Backtracking) - #212](https://leetcode.com/problems/word-search-ii/)  
 126. [Unique Paths - #62](https://leetcode.com/problems/unique-paths/) *(DP)*  
 127. [Merge Intervals - #56](https://leetcode.com/problems/merge-intervals/) *(Sorting)*  
 
@@ -197,7 +197,7 @@
 169. [Longest Word in Dictionary through Deleting - #524](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) *(Not Trie)*  
 170. [Prefix and Suffix Search - #745](https://leetcode.com/problems/prefix-and-suffix-search/)  
 171. [Implement Trie (Repeat) - #208](https://leetcode.com/problems/implement-trie-prefix-tree/)  
-172. [Word Break II - #140](https://leetcode.com/problems/word-break-ii/) *(Backtracking + DP)*  
+172. [Word Break II - #140](https://leetcode.com/problems/word-break-ii/) *(DFS.Backtracking + DP)*  
 
 ---
 
@@ -336,3 +336,14 @@
 81. [Longest Common Prefix - #14](https://leetcode.com/problems/longest-common-prefix/)
 82. [Compare Version Numbers - #165](https://leetcode.com/problems/compare-version-numbers/)
 83. [Valid Palindrome - #125](https://leetcode.com/problems/valid-palindrome/)  
+---
+**TwoPointers**
+    
+85. https://leetcode.com/problems/3sum-closest/description/ 
+86. https://leetcode.com/problems/minimum-size-subarray-sum/description/
+87. https://leetcode.com/problems/longest-mountain-in-array/description/
+88. https://leetcode.com/problems/subarray-product-less-than-k/description/
+89. https://leetcode.com/problems/find-the-duplicate-number/description/
+90. https://leetcode.com/problems/sort-colors/description/
+91. https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+92. https://leetcode.com/problems/is-subsequence/description/
