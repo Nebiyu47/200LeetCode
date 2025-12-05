@@ -363,7 +363,9 @@
 103 Reverse Vowels of a String — https://leetcode.com/problems/reverse-vowels-of-a-string/
 104 Backspace String Compare — https://leetcode.com/problems/backspace-string-compare/
 105 Sort Array by Parity — https://leetcode.com/problems/sort-array-by-parity/
+
 📌 Category 2: Sliding Window (Two Pointers Moving Forward)
+
 106Longest Substring Without Repeating Characters — https://leetcode.com/problems/longest-substring-without-repeating-characters/
 107 Minimum Window Substring — https://leetcode.com/problems/minimum-window-substring/
 108 Longest Substring with At Most K Distinct Characters — https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
@@ -373,7 +375,9 @@
 112 Permutation in String — https://leetcode.com/problems/permutation-in-string/
 113 Substring with Concatenation of All Words — https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 114 Fruit Into Baskets — https://leetcode.com/problems/fruit-into-baskets/
+
 📌 Category 3: Fast & Slow Pointers (Linked List Must-Knows)
+
 115 Linked List Cycle — https://leetcode.com/problems/linked-list-cycle/
 116 Linked List Cycle II — https://leetcode.com/problems/linked-list-cycle-ii/
 117 Middle of the Linked List — https://leetcode.com/problems/middle-of-the-linked-list/
@@ -381,12 +385,16 @@
 119 Merge Two Sorted Lists — https://leetcode.com/problems/merge-two-sorted-lists/
 120 Palindrome Linked List — (Use https://leetcode.com/problems/palindrome-linked-list/
 )
+
 📌 Category 4: Two-Pointer + Sorting Problems
+
 121 Valid Triangle Number — https://leetcode.com/problems/valid-triangle-number/
 122 Sort Colors — https://leetcode.com/problems/sort-colors/
 123 Merge Sorted Array — https://leetcode.com/problems/merge-sorted-array/
 124 Find K Closest Elements — https://leetcode.com/problems/find-k-closest-elements/
 125 Remove Duplicates from Sorted Array II — https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+
 📌 Category 5: Two Pointers on Strings / Arrays
+
 126 Valid Palindrome II — https://leetcode.com/problems/valid-palindrome-ii/
 127 Valid Palindrome — https://leetcode.com/problems/valid-palindrome/
