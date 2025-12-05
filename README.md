@@ -373,86 +373,33 @@ Reverse Vowels of a String — https://leetcode.com/problems/reverse-vowels-of-a
 Backspace String Compare — https://leetcode.com/problems/backspace-string-compare/
 
 Sort Array by Parity — https://leetcode.com/problems/sort-array-by-parity/
-📌 Category 2: Sliding Window (Two Pointers Moving Forward)
-
-106Longest Substring Without Repeating Characters — https://leetcode.com/problems/longest-substring-without-repeating-characters/
-107 Minimum Window Substring — https://leetcode.com/problems/minimum-window-substring/
-108 Longest Substring with At Most K Distinct Characters — https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
-109 Longest Substring with At Most Two Distinct Characters — https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
-110 Find All Anagrams in a String — https://leetcode.com/problems/find-all-anagrams-in-a-string/
-111 Minimum Size Subarray Sum — https://leetcode.com/problems/minimum-size-subarray-sum/
-112 Permutation in String — https://leetcode.com/problems/permutation-in-string/
-113 Substring with Concatenation of All Words — https://leetcode.com/problems/substring-with-concatenation-of-all-words/
-114 Fruit Into Baskets — https://leetcode.com/problems/fruit-into-baskets/
-
-📌 Category 3: Fast & Slow Pointers (Linked List Must-Knows)
-
-115 Linked List Cycle — https://leetcode.com/problems/linked-list-cycle/
-116 Linked List Cycle II — https://leetcode.com/problems/linked-list-cycle-ii/
-117 Middle of the Linked List — https://leetcode.com/problems/middle-of-the-linked-list/
-118 Remove Nth Node From End of List — https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-119 Merge Two Sorted Lists — https://leetcode.com/problems/merge-two-sorted-lists/
-120 Palindrome Linked List — (Use https://leetcode.com/problems/palindrome-linked-list/
-)
-
-📌 Category 4: Two-Pointer + Sorting Problems📌 Category 1: Classic Two-Pointer (Opposite Directions)
-
-93 Two Sum (Sorted) — https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-94 3Sum — https://leetcode.com/problems/3sum/
-95 3Sum Closest — https://leetcode.com/problems/3sum-closest/
-96 4Sum — https://leetcode.com/problems/4sum/
-97 3Sum Smaller — https://leetcode.com/problems/3sum-smaller/
-98 Two Sum II – Input Array is Sorted — https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-99 Move Zeroes — https://leetcode.com/problems/move-zeroes/
-100 Squares of a Sorted Array — https://leetcode.com/problems/squares-of-a-sorted-array/
-101 Remove Duplicates from Sorted Array — https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-102 Remove Element — https://leetcode.com/problems/remove-element/
-103 Reverse Vowels of a String — https://leetcode.com/problems/reverse-vowels-of-a-string/
-104 Backspace String Compare — https://leetcode.com/problems/backspace-string-compare/
-105 Sort Array by Parity — https://leetcode.com/problems/sort-array-by-parity/
 
 📌 Category 2: Sliding Window (Two Pointers Moving Forward)
-
-106Longest Substring Without Repeating Characters — https://leetcode.com/problems/longest-substring-without-repeating-characters/
-107 Minimum Window Substring — https://leetcode.com/problems/minimum-window-substring/
-108 Longest Substring with At Most K Distinct Characters — https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
-109 Longest Substring with At Most Two Distinct Characters — https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
-110 Find All Anagrams in a String — https://leetcode.com/problems/find-all-anagrams-in-a-string/
-111 Minimum Size Subarray Sum — https://leetcode.com/problems/minimum-size-subarray-sum/
-112 Permutation in String — https://leetcode.com/problems/permutation-in-string/
-113 Substring with Concatenation of All Words — https://leetcode.com/problems/substring-with-concatenation-of-all-words/
-114 Fruit Into Baskets — https://leetcode.com/problems/fruit-into-baskets/
+13. Longest Substring Without Repeating Characters — https://leetcode.com/problems/longest-substring-without-repeating-characters/
+14. Minimum Window Substring — https://leetcode.com/problems/minimum-window-substring/
+15. Longest Substring with At Most K Distinct Characters — https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+16. Longest Substring with At Most Two Distinct Characters — https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+17. Find All Anagrams in a String — https://leetcode.com/problems/find-all-anagrams-in-a-string/
+18. Minimum Size Subarray Sum — https://leetcode.com/problems/minimum-size-subarray-sum/
+19. Permutation in String — https://leetcode.com/problems/permutation-in-string/
+20. Substring with Concatenation of All Words — https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+21. Fruit Into Baskets — https://leetcode.com/problems/fruit-into-baskets/
 
 📌 Category 3: Fast & Slow Pointers (Linked List Must-Knows)
-
-115 Linked List Cycle — https://leetcode.com/problems/linked-list-cycle/
-116 Linked List Cycle II — https://leetcode.com/problems/linked-list-cycle-ii/
-117 Middle of the Linked List — https://leetcode.com/problems/middle-of-the-linked-list/
-118 Remove Nth Node From End of List — https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-119 Merge Two Sorted Lists — https://leetcode.com/problems/merge-two-sorted-lists/
-120 Palindrome Linked List — (Use https://leetcode.com/problems/palindrome-linked-list/
-)
+22. Linked List Cycle — https://leetcode.com/problems/linked-list-cycle/
+23. Linked List Cycle II — https://leetcode.com/problems/linked-list-cycle-ii/
+24. Middle of the Linked List — https://leetcode.com/problems/middle-of-the-linked-list/
+25. Remove Nth Node From End of List — https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+26. Merge Two Sorted Lists — https://leetcode.com/problems/merge-two-sorted-lists/
+27. Palindrome Linked List — https://leetcode.com/problems/palindrome-linked-list/
 
 📌 Category 4: Two-Pointer + Sorting Problems
-
-121 Valid Triangle Number — https://leetcode.com/problems/valid-triangle-number/
-122 Sort Colors — https://leetcode.com/problems/sort-colors/
-123 Merge Sorted Array — https://leetcode.com/problems/merge-sorted-array/
-124 Find K Closest Elements — https://leetcode.com/problems/find-k-closest-elements/
-125 Remove Duplicates from Sorted Array II — https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
-
-📌 Category 5: Two Pointers on Strings / Arrays
-
-126 Valid Palindrome II — https://leetcode.com/problems/valid-palindrome-ii/
-127 Valid Palindrome — https://leetcode.com/problems/valid-palindrome/
-
-121 Valid Triangle Number — https://leetcode.com/problems/valid-triangle-number/
-122 Sort Colors — https://leetcode.com/problems/sort-colors/
-123 Merge Sorted Array — https://leetcode.com/problems/merge-sorted-array/
-124 Find K Closest Elements — https://leetcode.com/problems/find-k-closest-elements/
-125 Remove Duplicates from Sorted Array II — https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+28. Valid Triangle Number — https://leetcode.com/problems/valid-triangle-number/
+29. Sort Colors — https://leetcode.com/problems/sort-colors/
+30. Merge Sorted Array — https://leetcode.com/problems/merge-sorted-array/
+31. Find K Closest Elements — https://leetcode.com/problems/find-k-closest-elements/
+32. Remove Duplicates from Sorted Array II — https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 
 📌 Category 5: Two Pointers on Strings / Arrays
-
-126 Valid Palindrome II — https://leetcode.com/problems/valid-palindrome-ii/
-127 Valid Palindrome — https://leetcode.com/problems/valid-palindrome/
+33. Valid Palindrome II — https://leetcode.com/problems/valid-palindrome-ii/
+34. Valid Palindrome — https://leetcode.com/problems/valid-palindrome/
