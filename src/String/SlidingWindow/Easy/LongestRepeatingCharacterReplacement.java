@@ -14,7 +14,7 @@ public class LongestRepeatingCharacterReplacement {
             int[] freq = new int[26]; // Frequency map for characters A-Z
             int left = 0;
             int maxCount = 0; // Tracks the highest frequency in the current window
-            int maxLength = 0;
+            int maxLength =0;
 
             for (int right = 0; right < s.length(); right++) {
                 char c = s.charAt(right);

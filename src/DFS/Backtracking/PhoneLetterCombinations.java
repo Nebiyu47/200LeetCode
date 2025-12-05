@@ -10,7 +10,7 @@ public class PhoneLetterCombinations {
             '6',"mno", '7', "pqrs", '8', "tuv", '9', "wxyz"
     );
     public static void main(String[] args) {
-
+        System.out.println(lettercombinations("23"));
     }
     public static List<String> lettercombinations(String digits){
        List<String> result = new ArrayList<>();
@@ -25,6 +25,7 @@ public class PhoneLetterCombinations {
         }
         String letters = PHONE_MAP.get(digits.charAt(index));
             for (char c : letters.toCharArray()){
+
                 current.append(c);
                 backtrack(digits, index+1, current, result);
                 current.deleteCharAt(current.length()-1);

@@ -35,7 +35,7 @@ public static boolean isCyle(List<List<Integer>> grpah , int [] visted , int nod
 
         visted[node]=1;
         for (int negibor : grpah.get(node)){
-            if(isCyle(grpah,visted,node)){
+            if(isCyle(grpah,visted,negibor)){
                 return true;
             }
         }

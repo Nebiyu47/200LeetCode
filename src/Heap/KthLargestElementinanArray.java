@@ -10,19 +10,13 @@ public class KthLargestElementinanArray {
     }
     public static int KthLargestElementinanArray(int[] nums , int k){
 
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b)->b-a);
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>((a,b)->a-b);
-        for (int n : nums){
-            maxHeap.offer(n);
-        }
-
-        for (int n : nums){
-            minHeap.offer(n);
-        }
-        for (int i=0;i<k-1;i++)   {
-            maxHeap.poll();
-        }
-
-        return maxHeap.peek();
+       PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b)->b-a);
+       for (int num : nums){
+           maxHeap.offer(num);
+       }
+       while (!maxHeap.isEmpty()&&k-->1){
+           maxHeap.poll();
+       }
+       return maxHeap.peek();
     }
 }
